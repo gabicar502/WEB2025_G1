@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*Este test lo implementamos para normalizar los estilos de margin, padding y box-sizing de todo el sitio
+se hace con el operador {*] 
+#test{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: solid red;
+    border-width: 10px;
+}
+    */
+body{
+    height: 200vh;
+}
+.Caja{
+    border: solid;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: blue;
+
+  }
+  #caja2{
+    background-color: aqua;
+    position:sticky;
+    top: 30px;
+    left: 0px;
+  }
+  #personalizado{
+    background-color: aqua;
+    position:sticky;
+    top: 30px;
+    left: 0px;
+  }
+  
+
+  
